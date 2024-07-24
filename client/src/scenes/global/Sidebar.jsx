@@ -114,7 +114,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={userInfo.picture}
+                  src={userInfo ? userInfo.picture : "/admin-min.png"}
                   style={{
                     cursor: "pointer",
                     borderRadius: "50%",
@@ -129,7 +129,7 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  {userInfo ? userInfo.name : ""}
+                  {userInfo ? userInfo.name : "Federico Palma"}
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   IT Manager
