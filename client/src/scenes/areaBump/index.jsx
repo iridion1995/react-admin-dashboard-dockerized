@@ -22,7 +22,7 @@ const AreaBump = () => {
               id: 'dots',
               type: 'patternDots',
               background: 'inherit',
-              color: colors.greenAccent[500],
+              color: colors.lightBlueAccent[500],
               size: 4,
               padding: 1,
               stagger: true,

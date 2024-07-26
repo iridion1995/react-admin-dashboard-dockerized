@@ -77,10 +77,10 @@ const Sidebar = () => {
           padding: "5px 35px 5px 20px !important",
         },
         "& .pro-inner-item:hover": {
-          color: "#868dfb !important",
+          color: "#0070C0 !important",
         },
         "& .pro-menu-item.active": {
-          color: "#6870fa !important",
+          color: "#0070C0 !important",
         },
       }}
     >
@@ -98,9 +98,9 @@ const Sidebar = () => {
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="company-logo"
-                  width="60px"
-                  height="60px"
-                  src="/image.ico"
+                  width="80px"
+                  height="40px"
+                  src="/company_logo.png"
                 />
               </Box>
             )}
@@ -131,7 +131,7 @@ const Sidebar = () => {
                 >
                   {userInfo ? userInfo.name : "Federico Palma"}
                 </Typography>
-                <Typography variant="h5" color={colors.greenAccent[500]}>
+                <Typography variant="h5" color={colors.lightBlueAccent[500]}>
                   IT Manager
                 </Typography>
               </Box>
