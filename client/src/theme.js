@@ -143,6 +143,9 @@ export const themeSettings = (mode) => {
             background: {
               default: colors.primary[500],
             },
+            error: {
+              main: colors.redAccent[600],
+            },
           }
         : {
             // palette values for light mode
@@ -159,6 +162,9 @@ export const themeSettings = (mode) => {
             },
             background: {
               default: "#fcfcfc",
+            },
+            error: {
+              main: colors.redAccent[400],
             },
           }),
     },
