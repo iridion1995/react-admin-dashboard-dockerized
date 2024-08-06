@@ -20,7 +20,7 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
       });
   }, []);
 
-  return (
+  return linechartData &&(
     <ResponsiveLine
       data={linechartData}
       theme={{
