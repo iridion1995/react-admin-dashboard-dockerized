@@ -98,7 +98,7 @@ const Sidebar = () => {
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="company-logo"
-                  width="80px"
+                  width="100px"
                   height="40px"
                   src="/company_logo.png"
                 />
